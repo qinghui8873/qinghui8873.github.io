@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>网站代码笔记1.0</title>
+
+    <style>
+      /*这里是CSS代码，样式，美化网页，让网页更加漂亮*/
+
+      .yinying {
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #888888;
+      }
+
+      .pai {
+        height: 100%;
+        width:99%;
+        margin: 10px;
+
+      }
+
+      .flex-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .muhezi1{
+        height: 99%;
+        width: 33%;
+        margin-top:8px;
+        margin-right:15px;
+      }
+
+
+      .hezi1 {
+        justify-content: center;
+        text-align: center;
+        padding: 5px;
+        margin: 8px;
+        background-color: rgba(238, 241, 89, 0.578);
+        height: 95%;
+        width: 95%;
+        border: 1px solid #da1b71;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #888888;
+        overflow: auto;
+      }
+
+      .ziti1 {
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 3px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #da1b71;
+      }
+
+      .Abiaoqian-yelan {
+        font-size: 15px;
+        color: #da1b71;
+      }
+
+      .zhuyebeijing {
+        background-image: url('/bi-ji/bijiTU/zhuyebeijing.jpg');
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size: 100% 100%;
+
+      }
+    </style>
+
+    <script>
+      /*这里是JavaScript代码，让网页更加动态，能与用户互动*/
+      function yirufangda(dx) {
+        dx.style.height = "98%";
+        dx.style.width = "98%";
+      } /*鼠标移入时，改变盒子的高度和宽度，创建-名字-参数-函数-值-的结构*/
+
+      function yichufuyuan(xx) {
+        xx.style.height = "95%";
+        xx.style.width = "95%";
+      } /*鼠标移出时，恢复盒子的高度和宽度，创建-名字-参数-函数-值-的结构*/
+    </script>
+  </head>
+
+  <body class="zhuyebeijing">
+    <div
+      id="biaoti"
+      style="
+        text-align: center;
+        background-color: #da1b71b5;
+        padding: 20px;
+        margin-top: 5px;
+        color: #fff;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #888888;
+      "
+    >
+      /*这里是HTML代码，创建-名字-参数-值-的结构，设置标题，背景颜色，边框，边框圆角，阴影，文字颜色，文字居中*/
+      <h1>网站代码笔记2.0</h1>
+      <p>
+        这是一个网站代码笔记，主要记录网站开发过程中的一些知识点和代码，以便日后查阅。
+      </p>
+    </div>
+
+    <div id="1pai" class="flex-1 pai"
+      >
+
+      <div id="muhezi1.0" class="muhezi1">
+        <div
+        id="hezi1.0"
+        class="hezi1"
+        onmouseover="yirufangda(this)"
+        onmouseout="yichufuyuan(this)"
+        >
+        <p class="ziti1">这是介绍盒子div</p>
+
+        <a class="Abiaoqian-yelan" href="he-zi\he-zi.html"> 阅览更多</a>
+        </div>
+      </div>
+
+      <div id="muhezi1.1" class="muhezi1">
+        <div
+        id="hezi1.1"
+        class="hezi1"
+        onmouseover="yirufangda(this)"
+        onmouseout="yichufuyuan(this)"
+        >
+        <p class="ziti1">关于a标签的知识点</p>
+
+        <a class="Abiaoqian-yelan" href="Abiaoqian.html"> 阅览更多 </a>
+        </div>
+    </div>
+
+    <div id="muhezi1.2" class="muhezi1"> 
+      <div id="1.2"
+      class="hezi1"
+      onmouseover="yirufangda(this)"
+      onmouseout="yichufuyuan(this)">
+        <p class="ziti1">style样式表介绍</p>
+        <a class="Abiaoqian-yelan" href="yangshibiao.html"> 阅览更多 </a>
+      </div>
+    </div> 
+
+    </div>
+
+    <div id="2pai" class="flex-1 pai">
+      <div id="muhezi2.0" class="muhezi1">
+        <div id="hezi2.0" 
+        class="hezi1"
+        onmouseover="yirufangda(this)"
+        onmouseout="yichufuyuan(this)">
+        <p class="ziti1">颜色的使用介绍</p>
+        <a class="Abiaoqian-yelan" href="yanyu.html"> 阅览更多 </a>
+        </div>
+      </div>
+
+      <div id="muhezi2.1" class="muhezi1">
+        <div id="hezi2.1"
+        class="hezi1"
+        onmouseover="yirufangda(this)"
+        onmouseout="yichufuyuan(this)">
+        <p class="ziti1"  >
+          文字的使用介绍
+        </p>
+        <a class="Abiaoqian-yelan" href="wenzi.html"> 阅览更多 </a>
+        </div>
+      </div>
+
+      <div id="muhezi2.2" class="muhezi1">
+        <div id="hezi2.2"
+        class="hezi1"
+        onmouseover="yirufangda(this)"
+        onmouseout="yichufuyuan(this)">
+        <p class="ziti1">
+          背景的使用介绍
+        </p>
+        <a class="Abiaoqian-yelan" href="beijing.html"> 阅览更多 </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="3pai" class="flex-1 pai">
+
+      <div id="muhezi3.0" class="muhezi1">
+        <div id="hezi3.0"
+        class="hezi1"
+        onmouseover="yirufangda(this)"
+        onmouseout="yichufuyuan(this)">
+        <p class="ziti1">
+          js-事件的使用介绍
+        </p>
+        <a class="Abiaoqian-yelan" href="shijian.html"> 阅览更多 </a>
+        </div>
+      </div>
+
+      <div id="muhezi3.1" class="muhezi1">
+        <div id="hezi3.1"
+        class="hezi1"
+        onmouseover="yirufangda(this)"
+        onmouseout="yichufuyuan(this)">
+        <p class="ziti1">
+          js函数结构介绍
+        </p>
+        <a class="Abiaoqian-yelan" href="hanshu.html"> 阅览更多 </a>
+        </div>
+      </div>
+
+      <div id="muhezi3.2" class="muhezi1"> 
+        <div id="hezi3.2"
+        class="hezi1"
+        onmouseover="yirufangda(this)"
+        onmouseout="yichufuyuan(this)">
+        <p class="ziti1">
+          JS页面应用介绍
+        </p>
+        <a class="Abiaoqian-yelan" href="yemianyingyiong.html"> 阅览更多 </a>
+        </div>
+      </div> 
+  </div>
+
+  <div id="4pai" class="flex-1 pai">
+
+    <div id="muhezi4.0" class="muhezi1">
+      <div id="hezi4.0"
+      class="hezi1"
+      onmouseover="yirufangda(this)"
+      onmouseout="yichufuyuan(this)">
+      <p class="ziti1">
+        JS对象的解释和使用
+      </p>
+      <a class="Abiaoqian-yelan" href="duixiang.html"> 阅览更多 </a>
+      </div>
+    </div>
+
+    <div id="muhezi4.1" class="muhezi1">
+      <div id="hezi4.1"
+      class="hezi1"
+      onmouseover="yirufangda(this)"
+      onmouseout="yichufuyuan(this)">
+      <p class="ziti1">
+        JS作用域介绍
+      </p>
+      <a class="Abiaoqian-yelan" href="zuoyongyu.html"> 阅览更多 </a>
+      </div>
+    </div>
+
+    <div id="muhezi4.2" class="muhezi1">
+      <div id="hezi4.2"
+      class="hezi1"
+      onmouseover="yirufangda(this)"
+      onmouseout="yichufuyuan(this)">
+      <p class="ziti1">
+        JS比较和逻辑运算符
+      </p>
+      <a class="Abiaoqian-yelan" href="bijiaoluoji.html"> 阅览更多 </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="5pai" class="flex-1 pai">
+
+    <div id="muhezi5.0" class="muhezi1">
+      <div id="hezi5.0"
+      class="hezi1"
+      onmouseover="yirufangda(this)"
+      onmouseout="yichufuyuan(this)">
+      <p class="ziti1">
+        JS的条件语句介绍
+      </p>
+      <a class="Abiaoqian-yelan" href="tiaojian.html"> 阅览更多 </a>
+      </div>
+    </div>
+
+    <div id="muhezi5.1" class="muhezi1">
+      <div id="hezi5.1"
+      class="hezi1"
+      onmouseover="yirufangda(this)"
+      onmouseout="yichufuyuan(this)">
+      <p class="ziti1">
+        JS的循环介绍
+      </p>
+      <a class="Abiaoqian-yelan" href="xubhuan.html"> 阅览更多 </a>
+      </div>
+    </div>
+
+    <div id="muhezi5.2" class="muhezi1">
+      <div id="hezi5.2"
+      class="hezi1"
+      onmouseover="yirufangda(this)"
+      onmouseout="yichufuyuan(this)">
+      <p class="ziti1">
+        JS类型转换的介绍
+      </p>
+      <a class="Abiaoqian-yelan" href="leixing.html"> 阅览更多 </a>
+      </div>
+    </div>
+
+  </div>
+  </body>
+</html>
